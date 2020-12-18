@@ -1,11 +1,18 @@
 package PartOnePrim;
-
+import java.util.*;
 import java.util.Objects;
 
 public class Vertex {
-    public String label = null;
+    private String label = null;
     public Vertex (String label){
         this.label=label;
+    }
+
+    public void setLabel(String label){
+        this.label = label;
+    }
+    public String getLabel(){
+        return this.label;
     }
 
     @Override

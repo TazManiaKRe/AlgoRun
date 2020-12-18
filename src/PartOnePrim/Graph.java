@@ -74,7 +74,7 @@ public class Graph {
             if(!visited.contains(vertex)){
                 visited.add(vertex);
                 for(Vertex ver :graph.getAdjVeri(vertex)){
-                    stack.push(ver.label);
+                    stack.push(ver.getLabel());
                 }
             }
         }

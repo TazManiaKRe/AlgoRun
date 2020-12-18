@@ -5,6 +5,7 @@ public class Edge { //keshet
     private boolean inIncluded = false;
 
     public Edge(int weight){
-        this.weight = weight; //or ha GEVVVVVVVVVVVVVVVVVVVVV
+        this.weight = weight;
+
     }
 }
