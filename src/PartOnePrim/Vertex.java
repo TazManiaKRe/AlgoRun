@@ -15,6 +15,9 @@ public class Vertex {
         return this.label;
     }
 
+    public void printVertex(){
+        System.out.println("Vertex: " + this.label);
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
